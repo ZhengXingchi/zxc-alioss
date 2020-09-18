@@ -1,0 +1,34 @@
+{
+  "name": "zxc-alioss",
+  "version": "1.0.4",
+  "description": "构建成功之后上传至oss的umi-plugin",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "repository": "",
+  "author": "ahwgs <ah_wgs@126.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "umi",
+    "umijs",
+    "plugin",
+    "alioss"
+  ],
+  "files": [
+    "lib",
+    "src"
+  ],
+  "peerDependencies": {
+    "umi": "2.x"
+  },
+  "devDependencies": {
+    "typescript": "3.2.2",
+    "umi-plugin-types": "^0.3.2"
+  },
+  "dependencies": {
+    "ali-oss": "^6.8.0"
+  }
+}
